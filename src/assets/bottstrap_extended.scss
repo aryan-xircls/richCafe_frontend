@@ -5,6 +5,7 @@
 // Include any default variable overrides here (though functions won't be available)
 $primary: #CA9E79;
 
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
@@ -48,4 +49,30 @@ $primary: #CA9E79;
     &:active {
         transform: scale(0.9);
     }
+}
+
+body{
+    background: #F5F5F5;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+// font size extend 
+.fs-7{
+    font-size: .9rem;
+}
+.fs-8{
+    font-size: .8rem;
+}
+.fs-9{
+    font-size: .7rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

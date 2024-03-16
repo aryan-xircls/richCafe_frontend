@@ -1,9 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
 
+body {
+    background: #fffaf5;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
 
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.text-brown {
+    color: #3f231d;
+}
 
 .bg-brown {
+    background: #3f231d;
+}
+
+.bg-grey-dark {
     background: #171717;
+}
+
+.bg-brown-light2 {
+    background: #edd8d2;
+}
+
+.bg-brown-light {
+    background: #fffaf5;
+}
+
+.bg-grey2 {
+    background: #444444;
 }
 
 
@@ -47,6 +77,22 @@
 
 }
 
-.mt-100{
+.btn-brown {
+    background: #3f231d;
+    &:hover {
+        background: #3f231d;
+        opacity: 0.9;
+    }
+}
+
+.mt-100 {
     margin-top: 100px;
+}
+
+.modal {
+    background: #0000008a;
+}
+
+a {
+    text-decoration: none;
 }

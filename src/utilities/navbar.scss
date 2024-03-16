@@ -1,0 +1,43 @@
+.notify_con {
+    position: relative;
+
+    .notify_count {
+        position: absolute;
+        right: 0;
+        width: 15px;
+        height: 15px;
+        background: #ffffffe1;
+        color: #000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+}
+
+.menuItem {
+    /* Common styles for both .menuItem and .menuItem.active */
+    cursor: pointer;
+color: white;
+    &.active {
+        /* Styles specific to .menuItem.active */
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+color: white;
+    }
+
+    &:hover {
+        /* From https://css.glass */
+        // background: rgba(255, 255, 255, 0.06);
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2.2px);
+        -webkit-backdrop-filter: blur(2.2px);
+        color: white;
+    }
+}
